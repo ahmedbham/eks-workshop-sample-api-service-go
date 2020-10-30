@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
         - name: hello-k8s
-          image: CONTAINER_IMAGE
+          image: 355672841173.dkr.ecr.us-west-2.amazonaws.com/eks-workshop-sample-api-service-go:latest
           securityContext:
             privileged: false
             readOnlyRootFilesystem: true
